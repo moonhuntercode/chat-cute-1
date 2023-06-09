@@ -1,0 +1,121 @@
+@import url("./reset.css");
+@import url("./variables.css");
+body {
+  background-color: var(--color-principal);
+  display: flex;
+  flex-flow: column wrap;
+  place-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 300px;
+  /* background-color: var(--color-secundario); */
+  height: 300px;
+  border-radius: 15px;
+  color: var(--custom-black);
+  overflow: scroll;
+  background: transparent url("./fondo-1.svg") no-repeat;
+  background-position: center;
+  background-size: 200%;
+  overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+* Handle *
+::-webkit-scrollbar-thumb {
+  background: #888888;
+}
+
+* Handle on hover *
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+.top_section {
+  background-color: white;
+  height: 20%;
+  width: 100%;
+  padding: 5px 20px;
+  background-color: var(--color-secundario);
+}
+.top_section p {
+  color: #868789;
+  font-weight: bold;
+}
+.chat_container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.one_message_container-one {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  text-align: left;
+  /* background-color: #d2bb8f; */
+  width: 90%;
+  height: 70px;
+}
+.one_message_container-one img {
+  width: 50px;
+}
+.one_message_container-two {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  text-align: left;
+  /* background-color: #d2bb8f; */
+  width: 90%;
+  height: 70px;
+}
+.one_message_container-two > img {
+  width: 50px;
+}
+.text_inside_msg-right_icon {
+  background: transparent url("./mensaje-contenedor.png") no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-position-x: right;
+  /* overflow: hidden; */
+  font-size: 13px;
+  text-align: right;
+  display: inline;
+  padding: 4px;
+  margin: 10px;
+  font-weight: bold;
+}
+.text_inside_msg-left_icon {
+  background: transparent url("./mensaje-contenedor.png") no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-position-x: right;
+  /* overflow: hidden; */
+  font-size: 13px;
+  text-align: left;
+  display: inline;
+  padding: 4px;
+  margin: 10px;
+  font-weight: bold;
+}
+.simplebar-scroll-content {
+  background: #6f2525 !important;
+}
+
+.simplebar-simplebar-scrollbar {
+  background-color: rgb(67, 49, 238) !important;
+}
+.implebar-track {
+  background-color: rgb(67, 49, 238) !important;
+}
+.simplebar-scrollbar::before {
+  background-color: #ae830b;
+}
+/* content: 'simplebar-content',
+scrollContent: 'simplebar-scroll-content',
+scrollbar: 'simplebar-scrollbar',
+track: 'simplebar-track' */

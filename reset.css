@@ -1,0 +1,11 @@
+@import url("./variables.css");
+body,
+html {
+  width: var(--cien-percent);
+  height: var(--cien-percent);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

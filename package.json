@@ -1,0 +1,18 @@
+{
+  "name": "chat-cute-1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1",
+    "simplebar": "^6.2.5"
+  }
+}
