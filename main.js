@@ -20,7 +20,9 @@ document.querySelector("#app").innerHTML =//html
   
   <!-- PERSON 1 -->
   <div class="one_message_container-one">
-    <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia</div>
+    <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia
+    <div class="circle"></div>
+    </div>
 
     <div class="icon_from_msg_container">
       <img src="./carita-1.png" alt="carita-1" />
@@ -30,7 +32,7 @@ document.querySelector("#app").innerHTML =//html
   <div class="one_message_container-two">
   
   <img src="${carita2}" alt="carita2">
-  <div class="text_inside_msg-left_icon">hoy  lo gua a pensar</div>
+  <div class="text_inside_msg-left_icon">tiene que ser así</div>
   </div>
    <!-- PERSON 1 -->
    <div class="one_message_container-one">
@@ -44,7 +46,7 @@ document.querySelector("#app").innerHTML =//html
  <div class="one_message_container-two">
  
  <img src="${carita2}" alt="carita2">
- <div class="text_inside_msg-left_icon">hoy  lo gua a pensar</div>
+ <div class="text_inside_msg-left_icon">tiene que ser así</div>
  </div>
   <!-- PERSON 1 -->
   <div class="one_message_container-one">
@@ -58,7 +60,7 @@ document.querySelector("#app").innerHTML =//html
   <div class="one_message_container-two">
   
   <img src="${carita2}" alt="carita2">
-  <div class="text_inside_msg-left_icon">hoy  lo gua a pensar</div>
+  <div class="text_inside_msg-left_icon">tiene que ser así</div>
   </div>
   
 </div>

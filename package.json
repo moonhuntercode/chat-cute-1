@@ -12,7 +12,13 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
+    "animejs": "^3.2.1",
     "resize-observer-polyfill": "^1.5.1",
     "simplebar": "^6.2.5"
-  }
+  },
+  "description": "with design from honkai",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
