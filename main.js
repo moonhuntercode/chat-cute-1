@@ -8,11 +8,13 @@ import carita2 from "./carita-2.png";
 // prettier-ignore
 document.querySelector("#app").innerHTML =//html
   `<div class="container">
+
 <div class="top_section">
   <h3>Siete de Marzo</h3>
   <p>¡Hoy tambien es un buen dia</p>
   <hr />
 </div>
+
 <div
   data-simplebar
   data-simplebar-auto-hide="false"
@@ -20,8 +22,13 @@ document.querySelector("#app").innerHTML =//html
   
   <!-- PERSON 1 -->
   <div class="one_message_container-one">
-    <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia
+    <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia!
+    <div class="circleContainer">
     <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    </div>
+
     </div>
 
     <div class="icon_from_msg_container">
@@ -68,4 +75,4 @@ document.querySelector("#app").innerHTML =//html
 </div>
 `;
 
-setupCounter(document.querySelector("#counter"));
+// setupCounter(document.querySelector("#counter"));

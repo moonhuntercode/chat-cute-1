@@ -119,9 +119,22 @@ body {
 scrollContent: 'simplebar-scroll-content',
 scrollbar: 'simplebar-scrollbar',
 track: 'simplebar-track' */
+.circleContainer {
+  z-index: 3;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center;
+  top: 0;
+}
+
 .circle {
-  border-radius: 50%;
   background-color: rgb(0, 0, 0);
+  border-radius: 50%;
   width: 10%;
   height: 40%;
+  margin-left: 29px;
 }

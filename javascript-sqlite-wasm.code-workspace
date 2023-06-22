@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../javascript-sqlite-wasm"
+		},
+		{
+			"path": "../vanillawebprojects"
+		},
+		{
+			"path": "../club-web-project"
+		},
+		{
+			"path": "../../investigations/webs/shadowDom"
+		},
+		{
+			"path": "../JavaScript-Essential"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../translator-otaku"
+		},
+		{
+			"path": "../socket-node-app-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vanillawebprojects"
+	}
+}
