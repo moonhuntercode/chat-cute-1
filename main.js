@@ -71,6 +71,13 @@ document.querySelector("#app").innerHTML =//html
   </div>
   
 </div>
+
+<!-- emoji container start-->
+<div class="containerEmoji">
+<img src="./chat-icon-2.png" alt="chat-icon">
+<img src="./chat-icon-triste-2.png" alt="chat-ico">
+<img src="./chat-icon-4-angry.png" alt="angry">
+</div>
 <!-- end of chat container -->
 </div>
 `;

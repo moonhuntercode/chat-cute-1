@@ -138,3 +138,21 @@ track: 'simplebar-track' */
   height: 40%;
   margin-left: 29px;
 }
+.containerEmoji {
+  background-color: #d0d0d2;
+  width: 100%;
+  z-index: 3;
+  height: 100px;
+  position: relative;
+  bottom: 150px;
+  border-top: 1px solid rgba(0, 0, 0, 0.283);
+}
+.containerEmoji img {
+  width: 80px;
+  background: #c6c5c8;
+  transition: all ease 0.5s;
+}
+.containerEmoji img:hover {
+  /* border: 5px solid #ae830b; */
+  filter: drop-shadow(0 0 1rem #e1700c);
+}
