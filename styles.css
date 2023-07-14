@@ -151,6 +151,7 @@ track: 'simplebar-track' */
   width: 80px;
   background: #c6c5c8;
   transition: all ease 0.5s;
+  margin-left: 0.8rem;
 }
 .containerEmoji img:hover {
   /* border: 5px solid #ae830b; */
