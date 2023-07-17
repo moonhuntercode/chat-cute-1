@@ -4,15 +4,25 @@ import "./styles.css";
 import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
+import { selectedEmoji } from "./behavior";
 import carita2 from "./carita-2.png";
 // prettier-ignore
 document.querySelector("#app").innerHTML =//html
   `<div class="container">
 
 <div class="top_section">
-  <h3>Siete de Marzo</h3>
-  <p>¡Hoy tambien es un buen dia</p>
-  <hr />
+<div class="content">
+<h3>Siete de Marzo</h3>
+<p>¡Hoy tambien es un buen dia</p>
+<!--<hr />-->
+</div>
+<div class="exit_container">
+<div class="rectangle"></div>
+<div class="rectangle"></div>
+<div class="rectangle"></div>
+<div class="rectangle"></div>
+<div class="circle_inside_x"></div>
+</div>
 </div>
 
 <div
@@ -76,10 +86,13 @@ document.querySelector("#app").innerHTML =//html
 <div class="containerEmoji">
 <img src="./chat-icon-2.png" alt="chat-icon">
 <img src="./chat-icon-triste-2.png" alt="chat-ico">
-<img src="./chat-icon-4-angry.png" alt="angry">
+<img src="./chat-icon-4-angry.png" alt="angry"
+ id="emojiOne" >
 </div>
 <!-- end of chat container -->
 </div>
 `;
 
 // setupCounter(document.querySelector("#counter"));
+console.log("momento2");
+selectedEmoji(document.querySelector("#emojiOne"));
