@@ -5,7 +5,11 @@ import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 import { selectedEmoji } from "./behavior";
+import carita1 from "./carita-1.png";
 import carita2 from "./carita-2.png";
+import chatIcon1 from "./chat-icon-2.png";
+import chatIconSad from "./chat-icon-triste-2.png";
+import chatIconAngry from "./chat-icon-4-angry.png";
 // prettier-ignore
 document.querySelector("#app").innerHTML =//html
   `<div class="container">
@@ -42,7 +46,7 @@ document.querySelector("#app").innerHTML =//html
     </div>
 
     <div class="icon_from_msg_container">
-      <img src="./carita-1.png" alt="carita-1" />
+      <img src="${carita1}"  alt="carita-1" />
     </div>
   </div>
   <!-- PERSON 2 -->
@@ -56,7 +60,7 @@ document.querySelector("#app").innerHTML =//html
    <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia</div>
 
    <div class="icon_from_msg_container">
-     <img src="./carita-1.png" alt="carita-1" />
+     <img src="${carita1}" alt="carita-1" />
    </div>
  </div>
  <!-- PERSON 2 -->
@@ -81,12 +85,11 @@ document.querySelector("#app").innerHTML =//html
   </div>
   
 </div>
-
 <!-- emoji container start-->
 <div class="containerEmoji">
-<img src="./chat-icon-2.png" alt="chat-icon">
-<img src="./chat-icon-triste-2.png" alt="chat-ico">
-<img src="./chat-icon-4-angry.png" alt="angry"
+<img src="${chatIcon1}" alt="chat-icon-2">
+<img src="${chatIconSad}" alt="chat-icon-sad">
+<img src="${chatIconAngry}" alt="angry"
  id="emojiOne" >
 </div>
 <!-- end of chat container -->
