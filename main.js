@@ -4,7 +4,7 @@ import "./styles.css";
 import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
-import { selectedEmoji } from "./behavior";
+import { selectedEmoji, emojiEvent } from "./behavior";
 import carita1 from "./carita-1.png";
 import carita2 from "./carita-2.png";
 import chatIcon1 from "./chat-icon-2.png";
@@ -87,11 +87,19 @@ document.querySelector("#app").innerHTML =//html
 </div>
 <!-- emoji container start-->
 <div class="containerEmoji">
-<img src="${chatIcon1}" alt="chat-icon-2">
-<img src="${chatIconSad}" alt="chat-icon-sad">
-<img src="${chatIconAngry}" alt="angry"
- id="emojiOne" >
+<img class="emojisChildren" src="${chatIcon1}" alt="chat-icon-2">
+<img class="emojisChildren" src="${chatIconSad}" alt="chat-icon-sad">
+<img class="emojisChildren" src="${chatIconAngry}" alt="angry"
+id="emojiOne" >
+<div class="containerOfInput">
+
+<label for="input"> entrada
+<input class="input" type="text">
+</label>
+<button>send</button>
 </div>
+</div>
+
 <!-- end of chat container -->
 </div>
 `;
@@ -99,3 +107,4 @@ document.querySelector("#app").innerHTML =//html
 // setupCounter(document.querySelector("#counter"));
 console.log("momento2");
 selectedEmoji(document.querySelector("#emojiOne"));
+emojiEvent();
