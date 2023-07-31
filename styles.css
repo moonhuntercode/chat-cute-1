@@ -142,6 +142,7 @@ track: 'simplebar-track' */
   margin-left: 29px;
 }
 .containerEmoji {
+  /* visibility: hidden; */
   background-color: #d0d0d2;
   width: 100%;
   z-index: 3;
@@ -203,4 +204,17 @@ track: 'simplebar-track' */
   border-radius: 50%;
   width: 3px;
   height: 3px;
+}
+.input {
+  position: relative;
+  bottom: 50px;
+  left: -25px;
+  width: 60%;
+  height: 40%;
+  display: inline;
+}
+.containerOfInput button {
+  position: relative;
+  display: inline;
+  top: 0;
 }
