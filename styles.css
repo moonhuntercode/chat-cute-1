@@ -142,7 +142,7 @@ track: 'simplebar-track' */
   margin-left: 29px;
 }
 .containerEmoji {
-  /* visibility: hidden; */
+  visibility: hidden;
   background-color: #d0d0d2;
   width: 100%;
   z-index: 3;
