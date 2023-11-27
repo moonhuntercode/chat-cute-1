@@ -1,24 +1,30 @@
 // IMPORTS START
-import "simplebar/dist/simplebar.css";
-// or "import SimpleBar from 'simplebar';" if you want to use it manually.
-import "simplebar";
-import "./styles.css";
+import "./css/styles.css";
 
-import { selectedEmoji, emojiEvent } from "./behavior";
-import carita1 from "./carita-1.png";
-import carita2 from "./carita-2.png";
-import chatIcon1 from "./chat-icon-alegre-1.png";
-import chatIconSad from "./chat-icon-triste-2.png";
-import chatIconAngry from "./chat-icon-4-angry.png";
-import { capturandoEsferasAnimadas } from "./animation";
+// or "import SimpleBar from 'simplebar';" if you want to use it manually.
+import "simplebar/dist/simplebar.css";
+import "simplebar";
+
+import {
+  selectedEmoji,
+  emojiEvent,
+} from "./js/behavior";
+import carita1 from "./images-svgs/carita-1.png";
+import carita2 from "./images-svgs/carita-2.png";
+import chatIcon1 from "./images-svgs/chat-icon-alegre-1.png";
+import chatIconSad from "./images-svgs/chat-icon-triste-2.png";
+import chatIconAngry from "./images-svgs/chat-icon-4-angry.png";
+import { capturandoEsferasAnimadas } from "./js/animation";
 import anime from "animejs";
 // IMPORTS ENDS
 
-// 👇🏻necessary line for //html effect 👇🏻
+// 👇🏻necessary lines para  //html/emmet effects 👇🏻
 
-// prettier-ignore
 // eslint-disable-next-line
-document.querySelector("#app").innerHTML =
+// prettier-ignore
+document.querySelector(
+  "#app"
+).innerHTML =
   //html
   `<div class="container">
 
@@ -82,7 +88,7 @@ document.querySelector("#app").innerHTML =
     <div class="text_inside_msg-right_icon">Hoy tiene que ser un buen dia</div>
 
     <div class="icon_from_msg_container">
-      <img src="./carita-1.png" alt="carita-1" />
+      <img src="${carita1}" alt="carita-1" />
     </div>
   </div>
   <!-- PERSON 2 -->

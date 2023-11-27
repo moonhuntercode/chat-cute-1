@@ -1,4 +1,4 @@
-@import url("./reset.css");
+@import url("./reset");
 @import url("./variables.css");
 body {
   background-color: var(--color-principal);
@@ -14,7 +14,7 @@ body {
   border-radius: 15px;
   color: var(--custom-black);
   overflow: scroll;
-  background: transparent url("./fondo-1.svg") no-repeat;
+  background: transparent url("../images-svgs/fondo-1.svg") no-repeat;
   background-position: center;
   background-size: 200%;
   overflow: hidden;
@@ -80,7 +80,7 @@ body {
   width: 50px;
 }
 .text_inside_msg-right_icon {
-  background: transparent url("./mensaje-contenedor.png") no-repeat;
+  background: transparent url("../images-svgs/mensaje-contenedor.png") no-repeat;
   background-size: cover;
   background-position: left;
   background-position-x: right;
@@ -93,7 +93,7 @@ body {
   font-weight: bold;
 }
 .text_inside_msg-left_icon {
-  background: transparent url("./mensaje-contenedor.png") no-repeat;
+  background: transparent url("../images-svgs/mensaje-contenedor.png") no-repeat;
   background-size: cover;
   background-position: right;
   background-position-x: right;
