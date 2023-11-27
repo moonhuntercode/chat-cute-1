@@ -1,24 +1,32 @@
+// IMPORTS START
 import "simplebar/dist/simplebar.css";
-import "simplebar"; // or "import SimpleBar from 'simplebar';" if you want to use it manually.
+// or "import SimpleBar from 'simplebar';" if you want to use it manually.
+import "simplebar";
 import "./styles.css";
-import javascriptLogo from "./javascript.svg";
-import viteLogo from "/vite.svg";
-import { setupCounter } from "./counter.js";
+
 import { selectedEmoji, emojiEvent } from "./behavior";
 import carita1 from "./carita-1.png";
 import carita2 from "./carita-2.png";
-import chatIcon1 from "./chat-icon-2.png";
+import chatIcon1 from "./chat-icon-alegre-1.png";
 import chatIconSad from "./chat-icon-triste-2.png";
 import chatIconAngry from "./chat-icon-4-angry.png";
+import { capturandoEsferasAnimadas } from "./animation";
+import anime from "animejs";
+// IMPORTS ENDS
+
+// 👇🏻necessary line for //html effect 👇🏻
+
 // prettier-ignore
-document.querySelector("#app").innerHTML =//html
+// eslint-disable-next-line
+document.querySelector("#app").innerHTML =
+  //html
   `<div class="container">
 
 <div class="top_section">
 <div class="content">
 <h3>Siete de Marzo</h3>
 <p>¡Hoy tambien es un buen dia</p>
-<!--<hr />-->
+
 </div>
 <div class="exit_container">
 <div class="rectangle"></div>
@@ -104,7 +112,7 @@ id="emojiOne" >
 </div>
 `;
 
-// setupCounter(document.querySelector("#counter"));
-console.log("momento2");
+capturandoEsferasAnimadas(anime, document.querySelectorAll(".circleContainer > .circle"));
+
 selectedEmoji(document.querySelector("#emojiOne"));
 emojiEvent();
